@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/[slug]/[category]/:type/:slug",
+      "handler": "custom.findTypeBySlug",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

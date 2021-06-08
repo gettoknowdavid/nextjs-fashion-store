@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/women/:type/:slug",
+      "handler": "custom.findTypeBySlug",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
